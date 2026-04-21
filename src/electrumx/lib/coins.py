@@ -2228,6 +2228,10 @@ class Newyorkcoin(AuxPowMixin, Coin):
     TX_COUNT_HEIGHT = 3948743
     TX_PER_BLOCK = 2
     REORG_LIMIT = 2000
+    RPC_PORT = 17021
+    PEERS = [
+        'electrum.paywith.nyc s50002',
+    ]
 
 
 class NewyorkcoinTestnet(Newyorkcoin):
