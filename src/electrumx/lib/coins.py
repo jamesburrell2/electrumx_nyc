@@ -2224,8 +2224,8 @@ class Newyorkcoin(AuxPowMixin, Coin):
     WIF_BYTE = bytes.fromhex("bc")
     GENESIS_HASH = ('5597f25c062a3038c7fd815fe46c67de'
                     'dfcb3c839fbc8e01ed4044540d08fe48')
-    TX_COUNT = 5161944
-    TX_COUNT_HEIGHT = 3948743
+    TX_COUNT = 16500000
+    TX_COUNT_HEIGHT = 12604507
     TX_PER_BLOCK = 2
     REORG_LIMIT = 2000
     RPC_PORT = 17021
