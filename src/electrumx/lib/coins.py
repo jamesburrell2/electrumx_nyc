@@ -2227,7 +2227,7 @@ class Newyorkcoin(AuxPowMixin, Coin):
     TX_COUNT = 16500000
     TX_COUNT_HEIGHT = 12604507
     TX_PER_BLOCK = 2
-    REORG_LIMIT = 2000
+    REORG_LIMIT = 13_000_000  # prevents eager 12.6M-header merkle cache load at startup
     RPC_PORT = 17021
     PEERS = [
         'electrum.paywith.nyc s50002',
